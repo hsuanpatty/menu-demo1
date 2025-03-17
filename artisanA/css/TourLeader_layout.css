@@ -1,0 +1,111 @@
+﻿@charset "UTF-8";
+
+tr {
+    height: 60px;
+}
+
+td {
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow:ellipsis;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+tbody{
+    margin: 0 auto;
+}
+
+table {
+    margin: 0 auto;
+}
+
+#Button1{
+    float: left;
+    margin: 50px 0 10px 600px;
+    width: 15%;
+    font-size: 16px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    background: #ff7600;
+    color: #ffffff;
+    cursor: pointer;
+    border: 0;
+}
+
+#Button1:hover{
+    background: #ff3100;
+}
+
+.btn_7 {
+    padding: 0 0 20px 75px;
+}
+
+#list_content{
+    padding: 45px 10px 50px 10px;
+}
+
+.form_group{
+    padding: 5px;
+}
+
+.form_group input {
+    outline: none;
+    display: block;
+    background: #f7f7f7;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.form_group input:focus {
+    border: 1px solid #33b5e5;
+}
+
+.form_module {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tr_table {
+    margin: 0 auto;
+}
+
+.input-group-append span.input-group-text {
+    display: block;
+    width: 90%;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    border: none!important;
+    background: #545a6a!important;
+    color: #ffffff!important;
+    cursor: pointer;
+    border-left-width: 0!important;
+    border-right-width: 0!important;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 4px!important;
+    padding-bottom: 4px!important;
+    padding: 0 20px;
+    margin: 0 10px;
+}
+
+.input-group-append span.input-group-text:hover, .input-group-append span.input-group-text:focus {
+    color: #ffffff!important;
+    background: #40b4de!important;
+}

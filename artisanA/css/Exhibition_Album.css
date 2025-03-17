@@ -1,0 +1,324 @@
+.header{
+  position: fixed !important;
+}
+.main-img-container{
+  margin-top: 100px;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  img{
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .text{
+    color: white;
+    font-family: '微軟正黑體';
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 60vh;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    .text1{
+      font-size: 46px;
+    }
+    span {
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+    }
+  }
+}
+.title{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-family: "Noto Sans TC";
+  font-size: 36px;
+  align-items: flex-end;
+  border: 0;
+  span{
+    margin-left: 18px;
+    font-size: 18px;
+    
+  }
+}
+.search-bar{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid,1px,black;
+  border-left: 0;
+  border-right: 0;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  position: relative;
+  i{
+    padding-left: 15px;
+    padding-right: 15px;
+    color:gray;
+  }
+  .arrow{
+    color: #8C001A;
+  }
+  .arrow:hover{
+    cursor: pointer;
+  }
+  span{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  button{
+    padding: 10px 15px 10px 15px;
+    border-radius: 25px;
+    border: solid,1px,rgb(132, 132, 132);
+    color: rgb(132, 132, 132);
+  }
+  button:hover{
+    background-color: #8C001A;
+    border-color: #8C001A;
+    color: white;
+    transition: .3s;
+  }
+  .list_btn:hover{
+    cursor: pointer;
+  }
+  .dropdown-menu {
+    font-family: '微軟正黑體';
+    font-size: 15px;
+    color: #5D5D5D;
+    background: rgba(255, 255, 255, 0.9);
+    padding: .6rem 1rem;
+    border: 2px solid #8c001a;
+    border-radius: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    width: 450px;
+    margin: 2px 0 0;
+    list-style: none;
+    .ul_list {
+      display: flex;
+    }
+    .first{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-right: 0;
+      width: 50%;
+      padding: 0 1.5rem;
+      a{
+        text-decoration: none;
+        color: #5D5D5D;
+      }
+      a:hover  {
+        color: #8C001A !important;
+      }
+      a:hover *{
+        color: #8C001A !important;
+      }
+      
+    }
+    .second{
+      width:auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-right: 0;
+      border-left: 1px solid #959595;
+      padding: 0 1.5rem;
+      white-space: nowrap;
+    }
+    .button{
+      text-align: right;
+      input {
+        background: #8c001a;
+        padding: .6rem 1rem;
+        color: #fff;
+        border: none;
+        border-radius: 35px;
+        margin-right: 0;
+        margin-top: 1rem;
+      }
+    }
+    
+  }
+}
+.container-fluid{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  padding: 0;
+  width: 80%;
+}
+.card{
+    border-radius: 18px;
+    border:0;
+    position: relative;
+    font-family: "Noto Sans TC";
+    background-color: rgb(224, 224, 224);
+    .date{
+      color: #8C001A;
+      margin-top: 25px;
+    }
+    .region{
+      position: absolute;
+      color: white;
+      background-color: rgb(220, 111, 129);
+      padding: 12px;
+      width: auto;
+      text-align: center;
+      top:42%;
+      max-width: 50%;
+        /* 限制最大寬度 */
+        white-space: nowrap;
+        /* 不換行 */
+        overflow: hidden;
+        /* 隱藏超出部分 */
+        text-overflow: ellipsis;
+        /* 用省略號表示超出部分 */
+    }
+    .card-title{
+      font-weight: bold;
+    }
+    .row{
+      justify-content: center;
+    }
+    .card-img-container {
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        position: relative;
+      }
+    
+    .card-img-container img {
+      border-radius: 18px 18px 0px 0px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .card-text{
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 4;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: normal;
+      height: 6em;
+    }
+    .card-btn{
+      display: flex;
+      justify-content: right;
+      a{
+        color: rgb(66, 66, 66);
+        border:solid,2px,rgb(66, 66, 66);
+        border-radius: 36px;
+        background-color: transparent;
+      }
+      a:hover{
+        background-color: #8C001A;
+        border-color: #8C001A;
+        color: white;
+        transition: .3s;
+      }
+    }
+}
+.switch-page{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+  .page{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+  }
+  .num:hover{
+    background-color: rgb(149, 149, 149);
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .arrow:hover{
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 1100px){
+.card {
+    .region {
+      top: 35%;
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    .region {
+      top: 42%;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-img-container {
+    height: 30vh;
+    margin-top: 70px;
+    img {
+      width: 100%;
+    }
+    .text {
+      height: 30vh;
+      font-size: 20px;
+      .text1{
+        font-size: 30px;
+      }
+    }
+
+  }
+  .title,.search-bar {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .search-bar {
+    font-size: 14px;
+    .list_btn{
+      margin-right: 0;
+    }
+    i{
+      padding: 5px;
+    }
+    span{
+      padding: 0;
+      margin: 5px;
+    }
+  }
+  .dropdown-menu{
+    width: 100% !important;
+  }
+  .card {
+    .region {
+      top: 40%;
+    }
+  }
+  
+}
