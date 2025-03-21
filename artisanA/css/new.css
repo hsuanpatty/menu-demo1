@@ -636,8 +636,8 @@ footer#footer{
         margin-bottom: 8px;
     }
 
-    .main-banner{
-        padding-top: 78px !important;
+    .main-banner {
+        padding-top: 75px !important;
     }
 
     .sub_menu {
@@ -680,8 +680,8 @@ footer#footer{
 
     .menu-btn {
         display: flex;
-        background-color: #ffffff!important;
-        color: #000000!important;
+        background-color: #8c001a!important;
+        color: #ffffff!important;
         align-items: center;
         font-size: 1.5rem;
         margin-top: 10px;
@@ -694,6 +694,7 @@ footer#footer{
     }
 
     .header-link{
+        background-color: #8c001a;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     }
 
@@ -708,7 +709,7 @@ footer#footer{
     }
 
     .pushy a {
-        padding: 20px 10px 20px 20px;
+        padding: 20px 30px;
     }
 
     .logo-w {
