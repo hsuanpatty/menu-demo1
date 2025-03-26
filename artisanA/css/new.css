@@ -310,7 +310,7 @@ ul.drop-down-menu > li {
 }
 
 .down-menu a{
-    background-color: rgb(248, 248, 248);
+    background-color: #fff;
 	color: #333333;
 	font-size: 16px;
 	border: 1px rgb(206, 34, 34) solid;
