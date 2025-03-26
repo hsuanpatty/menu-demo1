@@ -791,14 +791,14 @@ footer#footer{
     }
 
     .sub_menu_title span {
-        padding: 10px 4px ;
+        padding: 7px 4px ;
     }
 
     .sub_menu_box{
-        padding: 10px 4px;
+        padding: 7px 4px;
     }
     .sub_menu_title span.active {
-        padding: 10px 4px;
+        padding: 7px 4px;
     }
     .sub_menu_wrap {
         padding: 0 10px;
