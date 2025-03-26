@@ -323,6 +323,9 @@ ul.drop-down-menu > li {
     .social-bg{
         padding: 0;
     }
+    .drop-menu {
+        padding: 0.4rem 1rem ;
+    }
 }
 
 /*  機+酒  */
